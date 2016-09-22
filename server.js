@@ -20,7 +20,7 @@ app.get('/article-three',  function (req, res){
 });
 
 app.get('/article-one', function (req, res){
-   res.sendFile('Article one requested will be served here');
+   res.send('Article one requested will be served here');
 });
 
 app.get('/ui/madi.png', function (req, res) {
