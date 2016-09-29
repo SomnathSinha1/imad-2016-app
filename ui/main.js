@@ -2,5 +2,6 @@ console.log('Loaded!');
 var img= document.getElementById('img');
 img.onclick =  function()
 {
-        img.style.marginleft = '100px';
+       // var interval=setInterval(moveRight, 100);
+        img.style.marginleft = '1000px';
 };
