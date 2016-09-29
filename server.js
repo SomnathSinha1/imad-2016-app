@@ -5,6 +5,54 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
+var content={
+    title: 'ArticleOne|Somnath',
+    heading: 'Article One',
+    content:`
+    <p>
+    This is the first content for Article One
+    </p>
+    <p>
+    This is the second content for Article One
+    </p>`
+};
+function createTemplate(data)
+{
+    var title=data.title;
+    var heading=data.heading;
+    var content=data.content;
+    
+    var htmltemplate =`
+<html>
+    <head>
+        <title>
+            ${title}
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link href="/ui/style.css" rel="stylesheet" />
+    
+    </head>
+<body>
+  <div class="container">
+    <div>
+    <div>
+        <a href="\">Home</a>
+    </div>
+    <div>
+        <h1>${heading}</h1>
+    </div>
+    <div>${content}</div>
+   </div>
+  </div> 
+</body>
+</html>
+
+`
+return htmltemplate;
+}
+
+    
+
 
 
 
