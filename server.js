@@ -105,9 +105,7 @@ app.get('/:articleName', function (req, res){
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-app.get('https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/13716043_1054098621340007_2589898474659793066_n.jpg', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'https://scontent.fmaa1-2.fna.fbcdn.net/v/t1.0-9/13716043_1054098621340007_2589898474659793066_n.jpg'));
-});
+
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
