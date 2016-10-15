@@ -27,10 +27,11 @@ body {
             margin: 0 auto;
             color: white;
             background-image: url("https://onepagelove.com/wp-content/uploads/2014/03/opl-parallax-universe.jpg");
+             background-size: 100%;
              background-attachment: fixed;
              background-position: center;
              background-repeat: no-repeat;
-             background-size: cover;
+             /*background-size: cover;*/
             font-family: sans-serif;
             text-align: center;
             
