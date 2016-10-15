@@ -24,6 +24,7 @@ body {
             max-width: 800px;
             margin: 0 auto;
             color: BLACK;
+            background-color: transparent;
             font-family: sans-serif;
             padding-top: 60px;
             padding-left: 20px;
