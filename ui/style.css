@@ -21,10 +21,10 @@ body {
     height: 50%;
 }
  .container{
-            max-width: 800px;
+            max-width: 100%;
             margin: 0 auto;
             color: BLACK;
-            background-color: yellow;
+            background-color: inherit;
             font-family: sans-serif;
             padding-top: 60px;
             padding-left: 20px;
