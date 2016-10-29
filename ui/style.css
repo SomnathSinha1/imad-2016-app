@@ -23,7 +23,7 @@ body {
 }
  .container{
             max-width: 100%;
-            max-height: 800%;
+            max-height: 300%;
             margin: 0 auto;
             color: white;
             background-image: url("http://svite-league-apps-content.s3.amazonaws.com/bgimages/wood.jpg");
@@ -43,7 +43,24 @@ body {
 body, html {
     height: 100%;
 }
-
+.professional{
+    max-width: 100%;
+            max-height: 300%;
+            margin: 0 auto;
+            color: white;
+            background-image: url("http://bsnscb.com/data/out/144/39711955-parallax-wallpapers.jpg");
+             background-size: 150%;
+             background-attachment: fixed;
+             background-position: center;
+             background-repeat: repeat;
+             /*background-size: cover;*/
+            font-family: sans-serif;
+            text-align: center;
+            
+            padding-top: 60px;
+            padding-left: 20px;
+            padding-right: 20px;
+}
 .parallax { 
     /* The image used */
     background-image: url("https://calliedoart.files.wordpress.com/2015/02/paralax-background-1.jpg");
