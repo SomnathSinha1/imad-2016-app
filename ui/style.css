@@ -30,7 +30,7 @@ body {
              background-size: 100%;
              background-attachment: fixed;
              background-position: center;
-             background-repeat: no-repeat;
+             background-repeat: repeat;
              /*background-size: cover;*/
             font-family: sans-serif;
             text-align: center;
