@@ -83,7 +83,7 @@ function createTemplate(data)
 </body>
 </html>
 
-`
+`;
 return htmltemplate;
 }
 
