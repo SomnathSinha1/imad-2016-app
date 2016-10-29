@@ -23,7 +23,7 @@ body {
 }
  .container{
             max-width: 100%;
-            max-height: 100%;
+            max-height: 800%;
             margin: 0 auto;
             color: white;
             background-image: url("http://svite-league-apps-content.s3.amazonaws.com/bgimages/wood.jpg");
