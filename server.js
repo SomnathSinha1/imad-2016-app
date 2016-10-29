@@ -96,6 +96,9 @@ return htmltemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
+app.get('/feed.html', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'feed.html'));
+});
 app.get('/favicon.ico', function (req, res) {
   res.send('null');
 });
