@@ -159,7 +159,8 @@ app.get('/feed.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'feed.html'));
 });
 app.get('/favicon.ico', function (req, res) {
-  res.send('null');
+    res.sendFile(path.join(__dirname,  'favicon.ico'));
+  
 });
 app.get('/test-db', function (req, res) {
     pool.query('SELECT * FROM test', function(err,result)
