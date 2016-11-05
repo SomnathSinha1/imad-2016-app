@@ -47,7 +47,7 @@ body, html {
     height: 100%;
 }
 .bg{
-    background-image: url("http://www.testifydigital.com/wp-content/uploads/2013/02/background1.jpg");
+    background: url("http://www.testifydigital.com/wp-content/uploads/2013/02/background1.jpg");
     opacity:0.4;
 }
 .professional{
