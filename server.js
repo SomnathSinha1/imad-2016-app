@@ -158,6 +158,9 @@ app.get('/', function (req, res) {
 app.get('/login', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'login.html'));
 });
+app.get('/crimson', function (req, res) {
+  res.sendFile(path.join(__dirname, 'index1.html'));
+});
 app.get('/feed.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'feed.html'));
 });
