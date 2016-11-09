@@ -147,8 +147,11 @@ return htmltemplate;
 }
 
    
-
-
+app.get('/hash/:input', function (req, res) {
+   var hashedString = hash(req.params.input);
+   
+    res.send(hashedString);
+});
 
 
 
