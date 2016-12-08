@@ -50,6 +50,22 @@ body, html {
 {
     color: BLACK;
 }
+.insta{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+    a{
+        flex: 0 46%;
+        position: relative;
+    }
+    @media (min-width: 500)
+    {
+        a{
+            flex: 0 24%;
+        }
+    }
+}
 .professional{
     max-width: 100%;
             max-height: 100%;
